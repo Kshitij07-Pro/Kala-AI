@@ -1,6 +1,8 @@
 Kalā-AI: The Artisan's Story Generator ✨
 Kalā-AI is an intelligent web application designed to empower local artisans by helping them craft compelling, culturally rich stories for their products. By combining user-uploaded images and voice or text descriptions, it leverages the Google Gemini API to generate marketable narratives, breaking down the barriers to effective digital marketing.
 
+working prototype: https://kala-ai.netlify.app/
+
 <img width="2880" height="1620" alt="Screenshot (109)" src="https://github.com/user-attachments/assets/dfb1fae5-1270-4955-967b-8acdac1d2485" />
 
 
