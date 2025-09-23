@@ -1,0 +1,48 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #1a1a1a;
+    background-image: 
+        radial-gradient(circle at top right, rgba(194, 138, 93, 0.05), transparent 40%),
+        url('https://www.transparenttextures.com/patterns/handmade-paper.png');
+}
+.font-handcrafted {
+    font-family: 'Caveat', cursive;
+}
+.spinner {
+    border: 4px solid rgba(255, 255, 255, 0.1);
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    border-left-color: #c28a5d; /* Warm Amber */
+    animation: spin 1s ease infinite;
+}
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+.fade-in {
+    animation: fadeInAnimation ease 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes fadeInAnimation {
+    0% { opacity: 0; transform: translateY(15px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+.fade-out {
+    animation: fadeOutAnimation ease 3s forwards;
+}
+@keyframes fadeOutAnimation {
+    0% { opacity: 1; }
+    80% { opacity: 1; }
+    100% { opacity: 0; }
+}
+/* Pulsing animation for recording indicator */
+.pulse {
+    animation: pulse-animation 2s infinite;
+}
+@keyframes pulse-animation {
+    0% { box-shadow: 0 0 0 0 rgba(220, 38, 38, 0.7); }
+    70% { box-shadow: 0 0 0 10px rgba(220, 38, 38, 0); }
+    100% { box-shadow: 0 0 0 0 rgba(220, 38, 38, 0); }
+}
